@@ -1,5 +1,7 @@
 .idea/
 out/
-apple.lua
 words.txt
 Wordlist.iml
+
+*.lua
+!main.lua

@@ -33,7 +33,7 @@ for i=0, math.huge do
 
     -- We have all possible combinations
     if count == maxCombo then
-        print("Wordlist Completed")
+        print("Wordlist Completed, writing to file \'words.txt\'")
 
         -- Write the words to a a file
         local wordlist = io.open("words.txt", "a")
@@ -47,7 +47,7 @@ for i=0, math.huge do
         io.write("\n\n")
         io.close(wordlist)
 
-        os.execute("cat words.txt")
+        --os.execute("cat words.txt")
 
         break
     else
@@ -70,6 +70,7 @@ for i=0, math.huge do
 
         -- Insert the value to mainTable
         if condition == false then
+            print(tempQuery)
             table.insert(mainTable, tempQuery)
         end
 
