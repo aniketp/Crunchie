@@ -35,11 +35,11 @@ Clone the repository and execute the generator
 
  Output:
  Wordlist Completed, writing to file 'words.txt'
- Words generated for length 3 and characters 'ab'
 ```
 Check the contents of `words.txt` 
 ```bash
  $cat words.txt
+ Words generated for length 3 and characters 'ab'
  abb
  aab
  aba
