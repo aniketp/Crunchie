@@ -4,11 +4,11 @@
 -- Time: 12:02 AM
 --
 
-wordLength = arg[1]
-queries = tostring(arg[2])
-queryLength = #queries
+local wordLength = arg[1]
+local queries = tostring(arg[2])
+local queryLength = #queries
 
-mainTable = {}
+local mainTable = {}
 
 printAllWords = function(wordTable, prefix, queryLength, wordLength)
     if wordLength == 0 then
